@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Card from './Card.tsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <p className='online'>Online Experiences</p>
       <p className='paragraph'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
 </p>
+<Card/>
     </div>
   );
 }

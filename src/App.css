@@ -8,6 +8,20 @@ nav{
     height: 90px;
    
 }
+.star-icon{
+  color: red;
+}
+.card-profile{
+  margin: 7px;
+  padding: 10px;
+}
+.card-image{
+  border-radius: 7px;
+height: 400px;
+width: 300px;
+position: center;
+object-fit: cover;
+}
 .online{
   padding-left: 30px;
   justify-content: left;
