@@ -13,7 +13,11 @@ function App() {
       <p className='online'>Online Experiences</p>
       <p className='paragraph'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
 </p>
+<div className='card-line'>
 <Card/>
+<Card/>
+<Card/>
+</div>
     </div>
   );
 }

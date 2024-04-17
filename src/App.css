@@ -8,15 +8,20 @@ nav{
     height: 90px;
    
 }
+.card-line{
+  display: flex;
+  justify-content: space-around;
+}
 .star-icon{
-  color: red;
+  color: #FE395C;
 }
 .card-profile{
+  padding-top: 15px;
   margin: 7px;
   padding: 10px;
 }
 .card-image{
-  border-radius: 7px;
+  border-radius: 12px;
 height: 400px;
 width: 300px;
 position: center;
