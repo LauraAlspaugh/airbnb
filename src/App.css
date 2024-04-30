@@ -16,9 +16,19 @@ nav{
   color: #FE395C;
 }
 .card-profile{
+  position: relative;
   padding-top: 15px;
   margin: 7px;
   padding: 10px;
+}
+.badge{
+  position: absolute;
+    top: 6px;
+    left: 8px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 .card-image{
   border-radius: 12px;

@@ -12,6 +12,7 @@ picture= {item.picture}
 star= {item.star}
 description= {item.description}
 price= {item.price}
+ openSpots = {item.openSpots}
 />
     ) 
   })
