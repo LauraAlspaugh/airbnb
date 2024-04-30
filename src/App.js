@@ -2,8 +2,19 @@
 import './App.css';
 import React from 'react';
 import Card from './Card.tsx';
+import data from './data.js'
 
 function App() {
+  const cards = data.map(item => {
+    return(
+      <Card
+picture= {item.picture}
+star= {item.star}
+description= {item.description}
+price= {item.price}
+/>
+    ) 
+  })
   return (
     <div className="App">
       <nav>
@@ -14,7 +25,9 @@ function App() {
       <p className='paragraph'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
 </p>
 <div className='card-line'>
-<Card
+  {cards}
+  
+{/* <Card
 picture= "https://images.unsplash.com/photo-1713283699002-ac9462cedf0a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
 star= "5.0"
 description= "Interior Design Exhibit"
@@ -31,7 +44,7 @@ picture= "https://images.unsplash.com/photo-1713188702328-1115b19bb465?w=800&aut
 star= "5.0"
 description= "Photography Exhibit"
 price= "150"
-/>
+/> */}
 </div>
     </div>
   );
