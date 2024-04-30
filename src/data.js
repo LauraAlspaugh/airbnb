@@ -18,13 +18,6 @@ openSpots: 0
 star: "5.0",
 description: "Photography Exhibit",
 price: "150",
-openSpots: 5
-    },
-    {
-        picture: "https://images.unsplash.com/photo-1713188702328-1115b19bb465?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D",
-        star: "4.8",
-        description: "Pop Concert",
-        price: "200",
-        openSpots: 0
+openSpots: 0
     }
 ]
